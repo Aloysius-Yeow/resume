@@ -35,6 +35,7 @@ The website is hosted using GitHub Pages. Link as follows: https://aloysius-yeow
 ## Contact
 
 LinkedIn: https://www.linkedin.com/in/aloysius-yeow-a73w/
+
 GitHub: https://github.com/Alloylovessteel
 
 ## Copyright

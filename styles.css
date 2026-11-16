@@ -1,16 +1,16 @@
 :root {
   color-scheme: dark;
-  --bg: #0a101b;
+  --bg: #0b1220;
   --panel: rgba(18,29,45,.72);
   --panel2: #121d2b;
-  --text: #eef4fa;
-  --muted: #9aa9bb;
+  --text: #eef2f7;
+  --muted: #a3b0c2;
   --line: rgba(210,228,245,.13);
-  --cyan: #72e3d2;
+  --cyan: #7dd3fc;
   --blue: #a7bbff;
   --pink: #e0bcff;
-  --mint: #7ef0d9;
-  --accent: #b8ffe9;
+  --mint: #7dd3fc;
+  --accent: #7dd3fc;
   --shadow: 0 24px 70px rgba(0,0,0,.25)
 }
 
@@ -277,7 +277,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .live-pill {
-  font-size: 8px;
+  font-size: 12px;
   border: 1px solid rgba(126,240,217,.28);
   padding: 4px 7px;
   border-radius: 20px;
@@ -322,7 +322,7 @@ h1 span,.contact-layout h2 span {
 .profile-meta {
   display: flex;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 12px;
   margin: 8px 0
 }
 
@@ -359,7 +359,7 @@ h1 span,.contact-layout h2 span {
   border-radius: 10px;
   background: rgba(20,32,46,.85);
   border: 1px solid var(--line);
-  font-size: 10px;
+  font-size: 12px;
   box-shadow: var(--shadow)
 }
 
@@ -371,7 +371,7 @@ h1 span,.contact-layout h2 span {
   display: flex;
   gap: 12px;
   align-items: center;
-  font-size: 8px
+  font-size: 12px
 }
 
 .hero-foot span {
@@ -522,7 +522,7 @@ h1 span,.contact-layout h2 span {
   background: rgba(255,255,255,.025);
   border-radius: 7px;
   padding: 6px 10px;
-  font-size: 10px;
+  font-size: 12px;
   color: #c3cdd9
 }
 
@@ -569,7 +569,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .timeline-date {
-  font-size: 9px
+  font-size: 12px
 }
 
 .timeline-item h4 {
@@ -611,19 +611,19 @@ h1 span,.contact-layout h2 span {
 }
 
 .skill-group>span {
-  font-size: 8px;
+  font-size: 12px;
   color: var(--mint)
 }
 
 .skill-group p {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.7;
   margin: 6px 0;
   color: #c0cbd7
 }
 
 .skills-note {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   padding-top: 12px;
   border-top: 1px solid var(--line);
@@ -787,7 +787,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .project-visual>p {
-  font-size: 8px;
+  font-size: 12px;
   margin: 20px 0 0
 }
 
@@ -837,7 +837,7 @@ h1 span,.contact-layout h2 span {
 .project-details ul {
   padding-left: 17px;
   color: #c1ccd8;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.8
 }
 
@@ -858,7 +858,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .project-details .project-learning {
-  font-size: 10px
+  font-size: 12px
 }
 
 .project-details .text-link {
@@ -881,7 +881,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .credential-card>span {
-  font-size: 8px;
+  font-size: 12px;
   color: var(--mint)
 }
 
@@ -893,7 +893,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .credential-card p {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted);
   margin: auto 0 7px
 }
@@ -913,7 +913,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .award-list p {
-  font-size: 11px;
+  font-size: 12px;
   margin: 0;
   padding: 9px 0;
   border-bottom: 1px solid var(--line);
@@ -961,7 +961,7 @@ h1 span,.contact-layout h2 span {
 .linkedin-link {
   display: inline-block;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 14px
 }
 
@@ -976,7 +976,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .contact-form label {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   margin: 9px 0 5px
 }
@@ -988,7 +988,7 @@ h1 span,.contact-layout h2 span {
   background: rgba(5,12,20,.48);
   color: var(--text);
   padding: 11px 12px;
-  font-size: 11px;
+  font-size: 12px;
   resize: vertical
 }
 
@@ -1003,7 +1003,7 @@ h1 span,.contact-layout h2 span {
 }
 
 .form-note {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
   margin: 11px 0 0
 }
@@ -1015,7 +1015,7 @@ h1 span,.contact-layout h2 span {
   justify-content: space-between;
   gap: 18px;
   border-top: 1px solid var(--line);
-  font-size: 10px;
+  font-size: 12px;
   color: var(--muted)
 }
 
@@ -1028,15 +1028,15 @@ h1 span,.contact-layout h2 span {
 }
 
 .light-theme {
-  --bg: #edf2f5;
-  --cyan: #0a776d;
+  --bg: #f4f7fb;
+  --cyan: #0369a1;
   --blue: #485fa8;
   --pink: #79539a;
-  --mint: #08776b;
-  --accent: #08776b;
+  --mint: #0369a1;
+  --accent: #0369a1;
   --panel: rgba(255,255,255,.76);
-  --text: #182534;
-  --muted: #637386;
+  --text: #14202e;
+  --muted: #506075;
   --line: rgba(34,59,78,.16);
   --shadow: 0 24px 70px rgba(37,68,91,.12);
   background: radial-gradient(ellipse at 77% 2%,rgba(126,160,220,.16),transparent 33rem),var(--bg)
@@ -1313,7 +1313,7 @@ h1 span,.contact-layout h2 span {
   gap: 5px;
   margin-top: 10px;
   color: var(--mint);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   text-decoration: underline;
   text-decoration-color: rgba(126,240,217,.45);
@@ -1349,7 +1349,7 @@ h1 span,.contact-layout h2 span {
 .project-visual > p, .profile-top, .profile-meta span, .about-card > span,
 .interest-strip > span, .column-label, .project-details h4, .project-kicker .pill,
 .tech-stack span, .credential-card small, .award-list p span, .hero-foot, .live-pill {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .credential-card h3 {
@@ -1401,13 +1401,13 @@ h1 span,.contact-layout h2 span {
 
 .mock-content small,
 .window-bar small {
-  font-size: 10px;
+  font-size: 12px;
 }
 .site-footer {
   font-size: 12px;
 }
 .site-footer > span {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 /* Keep the floating label clear of the profile card at every size. */
@@ -1442,4 +1442,61 @@ h1 span,.contact-layout h2 span {
     align-self: flex-end;
     margin: 12px 2% 0;
   }
+}
+
+.avatar-photo {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 28px 0 18px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 23px;
+  font-weight: 800;
+  letter-spacing: -.04em;
+  margin: 0 0 4px;
+}
+
+.credential-card h4 {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 14px 0 9px;
+  letter-spacing: -.015em;
+}
+
+.cred-note {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+.lead-list {
+  display: grid;
+  gap: 22px;
+}
+
+.lead-item h4 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.lead-meta {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 2px 0 6px;
+}
+
+.lead-item ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.light-theme .lead-item ul {
+  color: #435365;
 }

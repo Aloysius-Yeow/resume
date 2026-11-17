@@ -1500,3 +1500,15 @@ h1 span,.contact-layout h2 span {
 .light-theme .lead-item ul {
   color: #435365;
 }
+
+.project-card-single {
+  grid-template-columns: 1fr;
+}
+
+.project-card + .project-card {
+  margin-top: 24px;
+}
+
+.skills-panel {
+  position: static;
+}
